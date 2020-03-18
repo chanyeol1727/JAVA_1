@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class vd3 {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        String name;
+        int age;
+    
+        name = scan.nextLine();
+        age = scan.nextInt();
+        
+        System.out.println("Ho va ten: " + name + " nam nay " + age + " tuoi");
+    }
+    //nhập vào màn hình họ tên và tuổi sau đó in ra màn hình
+}
