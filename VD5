@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class vd5 {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        int a, b;
+        a = scan.nextInt();
+        b = scan.nextInt();
+        double x = Math.pow(a,b);
+        System.out.printf("a luy thua b = %.0f\n",x);
+        
+        double y = Math.min(a,b);
+        System.out.printf("Gia tri nho nhat cua a va b la : %.0f",y);
+    }
+    //tính a lũy thừa b, giá trị nhỏ nhất của hai số
+}
