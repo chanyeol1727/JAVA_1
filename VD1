@@ -1,0 +1,8 @@
+public static void main(String[] args){
+//        System.out.print("Hello");
+//        System.out.println("Hello");
+        int a = 5;
+        double b = 6.35d, c;
+        c = a*b;
+        System.out.printf("c = %.3f", c);
+    }
