@@ -1,0 +1,17 @@
+import java.util.Random;
+public class vd4 {
+    public static void main(String[] args){
+        Random random = new Random();
+        int min = 5;
+        int max = 12;
+        
+        System.out.println("Sinh so ngau nhien tu "+min+ " den "+max+":");
+        int a = (int)(Math.random()*(max - min +1)+min);
+        System.out.println(a);
+        
+        double x;
+        x= Math.sqrt(a);
+        System.out.printf("Can bac hai cua x = %.1f", x);
+    }
+    //sinh số ngẫu nhiên trên một khoảng
+}
