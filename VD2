@@ -1,0 +1,8 @@
+public static void main(String[] args){
+        String hoten = "Dao Minh Hue";
+        int tuoi = 18;
+        
+        System.out.print("Dao Minh Hue nam nay 18 tuoi");
+        System.out.println(hoten + " nam nay " + tuoi + " tuoi");
+        System.out.printf("%s nam nay %d tuoi", hoten, tuoi);
+    }
