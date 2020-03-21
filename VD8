@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class vd8 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        
+        try{
+            int a = scanner.nextInt();
+            System.out.println("Ban da nhap dung!");
+        }
+        catch (Exception e){
+            System.out.println("Vui long nhap so!");
+        }
+    }
+}
