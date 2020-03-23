@@ -1,0 +1,27 @@
+public class vd10 {
+    public static void main(String[] args){
+        int i = 7;
+        int n = 1;
+        while(n<=10){
+            System.out.println("Bang cuu chuong 7: " + i);
+            n++;
+            i = n*7;
+        }
+    }
+}
+
+----------------------------------------------------------
+public class vd11 {
+    public static void main(String[] args){
+        int a = 27, b=0,tbc, i = 0;
+        while(a>=27 && a<=250){
+            System.out.println("A " + i + " = " + a);
+            a = a+3;
+            i++;
+            b=b+a;
+        }
+        System.out.println("Tong : "+b);
+        tbc=b/i;
+        System.out.println("Trung binh cong : " + tbc);
+    }
+}
