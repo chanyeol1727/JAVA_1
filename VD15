@@ -1,0 +1,12 @@
+public class vd15 {
+    public static void main(String[] args){
+        int[] a = {9,4,2,6,1,7,2,8,3};
+        double tong = 0;
+        for(int x:a){
+            if(x % 2 == 0){
+                tong = tong + x;
+            }
+        }
+        System.out.println("Tong: "+tong);
+    }
+}
