@@ -1,0 +1,9 @@
+public class vd12 {
+    public static void main(String[] args){
+        int a = 0;
+        do{
+            System.out.println("Diem tu 0 den 10 : " +a);
+            a++;
+        }while(a<=10);
+    }
+}
