@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class vd13 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int a = 0;
+        while(true){
+            a = scanner.nextInt();
+            if(a>=0 && a<=10){
+                break;
+            }
+            System.out.println("Diem tu 0 den 10: "+a);
+        }
+    }
+}
